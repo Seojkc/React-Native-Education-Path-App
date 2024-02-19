@@ -1,29 +1,11 @@
-# React-Native-Education-Path-App
+# Sample Snack app
 
-**Introduction:
-**
-The provided code presents a React Native application designed to assist in locating educational institutions within a specified area. It incorporates features such as mapping, marker display, and user input for searching specific locations.
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-**Overview:
-**
-The application utilizes React Native along with several external libraries like react-native-maps and expo-brightness. It displays a scrollable view containing a map interface, input field for specifying the location title, and buttons for actions such as displaying locations, resetting markers, and showing specific markers.
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-**Features:
-**
-Map Display: The primary feature is the integration of the MapView component from react-native-maps, allowing users to view a map with markers representing educational institutions.
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
 
-Markers: Markers on the map represent educational institutions. Initially, three markers are loaded, but the application allows for filtering and displaying specific markers based on user input.
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-User Interaction: Users can interact with the application by entering the title of an educational institution in the input field. Upon pressing the "Show Marker" button, the map updates to display only the marker(s) matching the entered title.
-
-Button Actions: The application provides two buttons for user actions: "Show Locations" and "Reset." "Show Locations" displays all markers currently loaded in the application, while "Reset" clears the map and input field.
-
-**Functionality:
-**
-Brightness Control: The code includes a side effect utilizing useEffect to request and set system brightness using the expo-brightness library. It ensures the brightness is set to maximum when the application is launched.
-
-Marker Filtering: The handleShowMarker function filters the markers based on the entered title, displaying only the matching marker(s) on the map.
-
-**Styling:
-**
-The application applies basic styling using StyleSheet to ensure visual consistency and responsiveness across different screen sizes.
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
